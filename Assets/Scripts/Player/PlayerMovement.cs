@@ -6,8 +6,9 @@ public class PlayerMovement : MonoBehaviour
     private ActionsEditor playerActions;
     private Rigidbody2D rb;
     private bool jumped = false;
-
+   
     [SerializeField] private float speed = 5; 
+    private float jumpModifier = 1.5f; 
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         if (!jumped) 
         {
             jumped = true;
-            rb.AddForce(Vector2.up * speed, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * speed * jumpModifier, ForceMode2D.Impulse);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
