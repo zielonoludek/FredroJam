@@ -5,10 +5,10 @@ using UnityEngine.InputSystem;
 public class Bullet : MonoBehaviour
 {
     private Camera camera;
-    [SerializeField] private Vector3 target;
-    private float speed = 100;
+    private Vector3 target;
     private Rigidbody2D rb;
     private BulletSpawner gun;
+    private float speed = 1000;
 
     public void Awake()
     {
@@ -20,7 +20,8 @@ public class Bullet : MonoBehaviour
     {
         transform.position = gun.transform.position;
         target = camera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        rb.AddForce((target - transform.position) * speed);
+        Vector3 force = (target - transform.position).normalized;
+        rb.AddForce(force * speed);
     }
     private void OnTriggerExit2D(Collider2D collider)
     {
