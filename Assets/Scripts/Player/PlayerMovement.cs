@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerInput = playerActions.Player.Movement.ReadValue<Vector2>();
         transform.Translate(playerInput * speed * Time.deltaTime);
     }
-    private void Jump( InputAction.CallbackContext contex) 
+    private void Jump(InputAction.CallbackContext contex) 
     {
         if (!jumped) 
         {
