@@ -23,6 +23,6 @@ public class RunningAnimal : Animal
     private void RandomiseTarget()
     {
         targetNum = Random.Range(1, childNum +1);
-        target = new Vector3(childList[targetNum].transform.position.x, -0.3f , 0);
+        target = new Vector3(childList[targetNum].transform.position.x, -0.6f , 0);
     }
 }
