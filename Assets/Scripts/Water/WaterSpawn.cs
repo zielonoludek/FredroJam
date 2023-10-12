@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spawn : MonoBehaviour
+public class WaterSpawn : MonoBehaviour
 {
     [SerializeField] private GameObject waterDrop;
-    public List<GameObject> spawnPoints = new List<GameObject>();
+    [HideInInspector] public List<GameObject> spawnPoints = new List<GameObject>();
     private float sec;
 
     private void Awake()

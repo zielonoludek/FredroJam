@@ -352,7 +352,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811774241f915e14c91811c2c23df568, type: 3}
---- !u!1001 &4792602570031124968
+--- !u!1001 &1774691788
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -360,10 +360,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1578276257062122103, guid: f1b92581d37ae5845a7a77ee792f6104, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 88ba594c15332f74585fe172bb799781, type: 2}
     - target: {fileID: 4342377600494269466, guid: f1b92581d37ae5845a7a77ee792f6104, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -420,4 +416,4 @@ SceneRoots:
   - {fileID: 1758376087}
   - {fileID: 918611823}
   - {fileID: 114971661}
-  - {fileID: 4792602570031124968}
+  - {fileID: 1774691788}
