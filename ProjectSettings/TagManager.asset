@@ -9,6 +9,7 @@ TagManager:
   - Animal
   - Bullet
   - BirdTargets
+  - FoxTargets
   layers:
   - Default
   - TransparentFX

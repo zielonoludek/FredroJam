@@ -17,6 +17,7 @@ public class Animal : MonoBehaviour
     private void Awake()
     {
         Physics2D.IgnoreLayerCollision(6, 3);
+        Physics2D.IgnoreLayerCollision(0, 3);
         SetHP(Random.Range(1, 3));
         renderArea = GameObject.FindGameObjectWithTag("RenderArea");
         roomLength = renderArea.transform.localScale.x;

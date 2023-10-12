@@ -8,12 +8,12 @@ public class RunningAnimal : Animal
     private int targetNum;
     [SerializeField] private GameObject targetList;
 
-
     private void Start()
     {
         renderArea = GameObject.FindGameObjectWithTag("RenderArea");
-        RandomiseTarget();
+        targetList = GameObject.FindGameObjectWithTag("FoxTargets");
         GetChildren(targetList);
+        RandomiseTarget();
     }
     private void FixedUpdate()
     {
@@ -22,7 +22,7 @@ public class RunningAnimal : Animal
     }
     private void RandomiseTarget()
     {
-        targetNum = Random.Range(1, childNum - 1);
+        targetNum = Random.Range(1, childNum +1);
         target = new Vector3(childList[targetNum].transform.position.x, 0 , 0);
     }
 }
