@@ -1,18 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Bird : Animal
+public class RunningAnimal : Animal
 {
     private Vector3 target;
     private int targetNum;
-    private GameObject targetList;
+    [SerializeField] private GameObject targetList;
+
 
     private void Start()
     {
-        Debug.Log("start");
         renderArea = GameObject.FindGameObjectWithTag("RenderArea");
-        targetList = GameObject.FindGameObjectWithTag("BirdTargets");
-        GetChildren(targetList);
         RandomiseTarget();
+        GetChildren(targetList);
     }
     private void FixedUpdate()
     {
@@ -21,7 +22,7 @@ public class Bird : Animal
     }
     private void RandomiseTarget()
     {
-        targetNum = Random.Range(1, childNum+1);
-        target = new Vector3(childList[targetNum].transform.position.x, childList[targetNum].transform.position.y, 0);
+        targetNum = Random.Range(1, childNum - 1);
+        target = new Vector3(childList[targetNum].transform.position.x, 0 , 0);
     }
 }
