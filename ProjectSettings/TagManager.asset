@@ -8,16 +8,16 @@ TagManager:
   - RenderArea
   - Animal
   - Bullet
-  - Undefined
+  - BirdTargets
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Movable
   - Water
   - UI
-  - 
-  - 
+  - ScreenBounds
+  - BirdTarget
   - 
   - 
   - 
