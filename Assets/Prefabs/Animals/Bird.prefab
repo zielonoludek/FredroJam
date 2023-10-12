@@ -171,3 +171,4 @@ MonoBehaviour:
   roomHeight: 0
   childNum: 0
   childList: []
+  animator: {fileID: 1192819759712889400}
