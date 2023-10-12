@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - BirdTargets
   - FoxTargets
+  - WaterDrop
   layers:
   - Default
   - TransparentFX
