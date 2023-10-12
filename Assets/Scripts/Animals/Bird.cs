@@ -3,8 +3,8 @@ using UnityEngine;
 public class Bird : Animal
 {
     private Vector3 target;
-    private int targetNum;
-    private GameObject targetList;
+    [SerializeField] private int targetNum;
+    [SerializeField] private GameObject targetList;
 
     private void Start()
     {

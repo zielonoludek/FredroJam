@@ -7,12 +7,12 @@ public class Animal : MonoBehaviour
      private float hp;
      public float speed;
      
-   public GameObject renderArea;
+     [HideInInspector] public GameObject renderArea;
      [HideInInspector] public float roomLength;
      [HideInInspector] public float roomHeight;
 
-    public int childNum;
-    public List<GameObject> childList = new List<GameObject>();
+     [HideInInspector] public int childNum;
+     [HideInInspector] public List<GameObject> childList = new List<GameObject>();
 
     private void Awake()
     {
