@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private bool jumped = false;
    
     [SerializeField] private float speed = 5; 
-    private float jumpModifier = 1.5f; 
+    private float jumpModifier = 1.5f;
+    [SerializeField] private Animator animator;
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 playerInput = playerActions.Player.Movement.ReadValue<Vector2>();
         transform.Translate(playerInput * speed * Time.deltaTime);
+        animator.SetFloat("Speed", speed);
     }
     private void Jump(InputAction.CallbackContext contex) 
     {
