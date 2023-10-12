@@ -4,32 +4,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
 public class WaterDrop : MonoBehaviour
-{/*
-    private Camera camera;
-    private Vector3 target;
-    private Rigidbody2D rb;
-    private BulletSpawner gun;
-    private float speed = 1000;
-
-    public void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        camera = FindObjectOfType<Camera>();
-        gun = FindObjectOfType<BulletSpawner>();
-    }
-    public void Start()
-    {
-        transform.position = gun.transform.position;
-        target = camera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        Vector3 force = (target - transform.position).normalized;
-        rb.AddForce(force * speed);
-    }
-    private void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.gameObject.CompareTag("RenderArea")) Destroy(gameObject);
-        if (collider.gameObject.CompareTag("Movable")) Destroy(gameObject);
-    }
-    */
+{
     private List<GameObject> spriteList = new List<GameObject>();
     private WaterSpawn spawner;
     private Rigidbody2D rb;
@@ -43,13 +18,12 @@ public class WaterDrop : MonoBehaviour
     private void Start()
     {
         var num = Random.Range(1, spawner.spawnPoints.Count);
-        transform.position = new Vector3(spawner.spawnPoints[num].transform.position.x, 7.75f, 0);
         var sec = Random.Range(3, 5);
+
+        transform.position = new Vector3(spawner.spawnPoints[num].transform.position.x, 7.75f, 0);
+        
         GetChildren();
-        for (int i = 2; i < spriteList.Count; i++)
-        {
-            if (spriteList[i].tag == "WaterDrop") spriteList[i].gameObject.SetActive(false);
-        }
+        for (int i = 2; i < spriteList.Count; i++) spriteList[i].gameObject.SetActive(false);
         Invoke("EnableGravity", sec);
     }
     private void OnEnable()
@@ -80,7 +54,6 @@ public class WaterDrop : MonoBehaviour
         ToggleVisibility3();
         spriteList[4].SetActive(!spriteList[4].activeSelf);
     }
-
         private void EnableGravity()
     {
         spriteList[1].SetActive(false); 
