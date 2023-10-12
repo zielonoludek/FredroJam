@@ -2,8 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace UI
-
+namespace UI // The UI Folder
 {
     public class SceneChanger : MonoBehaviour
     {
