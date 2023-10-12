@@ -5,6 +5,7 @@ public class Bird : Animal
     private Vector3 target;
     private int targetNum;
     private GameObject targetList;
+    [SerializeField] Animator animator;
 
     private void Start()
     {
@@ -18,6 +19,7 @@ public class Bird : Animal
     {
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
         if (transform.position == target) RandomiseTarget();
+        animator.SetFloat("Speed", speed);
     }
     private void RandomiseTarget()
     {
