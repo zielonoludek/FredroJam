@@ -4,7 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ea3d120-b821-4276-83be-820f279aa2d0" name="Changes" comment="" />
+    <list default="true" id="7ea3d120-b821-4276-83be-820f279aa2d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/._Fox" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/._Fox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/._Fox.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/._Fox.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_fly.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_fly.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_fly.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/._Bird_fly.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/._bird.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/._bird.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Fly2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bird/Sprites/._Bird_Idle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Jump.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._Bunny_Jump.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._bunny.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._bunny.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/._bunny.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/._bunny.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Idle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Jump.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Jump.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bunny/Sprites/._Bunny_Jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Run.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Run.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._Dog_Run.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._dog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._dog.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/._dog.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/._dog.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Idle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/dog/Sprites/._Dog_Run2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/._UnusedAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/._UnusedAssets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Floor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Floor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Player" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/._Player" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/._Player.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Room" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/._Room" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/._Room.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/._Room.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Bird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Bird.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Bird.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Bird.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Fox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Fox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Fox.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Fox.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Targets" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Targets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._Targets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._bunny.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._bunny.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._bunny.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._bunny.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._dog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._dog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/._dog.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/._dog.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/._Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/._Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/._RenderArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/._RenderArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/._Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/._Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Starter/._SceneStater.scenetemplate" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Starter/._SceneStater.scenetemplate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Starter/._SceneStater.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Starter/._SceneStater.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/._Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/._Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/._Bird.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/._Bird.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/._Fox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/._Fox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/._Fox.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/._Fox.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/._Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/._Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/._PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/._PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/._LevelCompleted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/._LevelCompleted.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/._TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/._TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +98,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/LevelCompleted.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Wem25PryXY1ZLUOYUEn31cKTB3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +111,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Apple-Branch",
+    "git-widget-placeholder": "StartAndEndScenes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697101211150</updated>
       <workItem from="1697101214924" duration="17186000" />
+      <workItem from="1697141444147" duration="600000" />
     </task>
     <servers />
   </component>

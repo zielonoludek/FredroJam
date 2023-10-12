@@ -47,3 +47,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UI
+    uniqueID: 1326248207
+    locked: 0
+  - name: Loading
+    uniqueID: 2663449193
+    locked: 0
