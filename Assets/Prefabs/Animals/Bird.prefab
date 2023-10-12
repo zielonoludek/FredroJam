@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592649792197617352}
   - component: {fileID: 5480984514102711077}
+  - component: {fileID: 7643831197139186158}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Animal
@@ -152,3 +153,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.7, y: 1}
   m_Direction: 0
+--- !u!114 &7643831197139186158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892757510756127947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe8045261b3a084fa6549daf65f1e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

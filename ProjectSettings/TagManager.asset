@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Floor
   - RenderArea
+  - Animal
+  - Bullet
+  - Undefined
   layers:
   - Default
   - TransparentFX

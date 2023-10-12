@@ -26,5 +26,6 @@ public class Bullet : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("RenderArea")) Destroy(gameObject);
+        if (collider.gameObject.CompareTag("Animal")) Destroy(gameObject);
     }
 }
