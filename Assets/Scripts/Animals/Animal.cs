@@ -13,6 +13,7 @@ public class Animal : MonoBehaviour
 
      [HideInInspector] public int childNum;
      [HideInInspector] public List<GameObject> childList = new List<GameObject>();
+     [SerializeField] private Animator animator;
 
     private void Awake()
     {
@@ -43,5 +44,10 @@ public class Animal : MonoBehaviour
             childList.Add(child.gameObject);
         }
         childNum = parent.transform.childCount;
+    }
+
+    private void Update()
+    {
+        animator.SetFloat("Speed", speed);
     }
 }
