@@ -13,6 +13,7 @@ TagManager:
   - WaterDrop
   - Teleporter
   - UI
+  - Movable
   layers:
   - Default
   - TransparentFX

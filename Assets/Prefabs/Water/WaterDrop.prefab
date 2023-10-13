@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 8375698104841379737}
   m_Layer: 0
   m_Name: WaterDrop
-  m_TagString: Untagged
+  m_TagString: WaterDrop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df0787d8addbe44cbc28029f839ffd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteList: []
 --- !u!50 &9072023736520340842
 Rigidbody2D:
   serializedVersion: 4
@@ -401,7 +402,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

@@ -1,4 +1,3 @@
-using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +6,6 @@ public class GameState : MonoBehaviour
     public static GameState instance;
     public GameSettings gameSettings;
     public PlayerData playerData;
-    private ChangeScene changeScene;
 
     private void Awake() => Initialize();
     public void Initialize()
@@ -33,11 +31,11 @@ public class GameState : MonoBehaviour
         playerData = Resources.Load<PlayerData>("PlayerData");
         
         gameSettings.isGamePaused = false;
-        gameSettings.isLevelRunning = false;
+        gameSettings.isLevelRunning = true;
         gameSettings.isLibOpened = false;
         gameSettings.numberOfLevel = 0;
 
         playerData.animalNumber = 0;
     }
-    private void LoadMainMenu() => SceneManager.LoadScene("Start", LoadSceneMode.Single);
+    private void LoadMainMenu() => SceneManager.LoadScene("L1", LoadSceneMode.Single);
 }

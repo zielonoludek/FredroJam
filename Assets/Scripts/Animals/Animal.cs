@@ -9,8 +9,8 @@ public class Animal : MonoBehaviour
      private float hp;
      public float speed;
 
-    [SerializeField] GameSettings settings;
-    [HideInInspector] public GameObject renderArea;
+     [SerializeField] GameSettings settings;
+     [HideInInspector] public GameObject renderArea;
      [HideInInspector] public float roomLength;
      [HideInInspector] public float roomHeight;
 
@@ -25,7 +25,6 @@ public class Animal : MonoBehaviour
         roomLength = renderArea.transform.localScale.x;
         roomHeight = renderArea.transform.localScale.y;
         speed = Random.Range(3, 10);
-        settings = GameState.instance.gameSettings;
 
     }
     private void OnTriggerEnter2D(Collider2D collider)
@@ -48,12 +47,9 @@ public class Animal : MonoBehaviour
     }
     public void Move(Vector3 target)
     {
-        if (settings.isLevelRunning && !settings.isGamePaused)
-        {
-            animator.SetFloat("Speed", speed);
-            if (transform.position == target) Invoke("RandomiseTarget", 0.5f);
-            else transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        }
+        animator.SetFloat("Speed", speed);
+        if (transform.position == target) Invoke("RandomiseTarget", 0.5f);
+        else transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
     private void OnDestroy()
     {

@@ -9,6 +9,9 @@ public class Hunting : MonoBehaviour
 
     private void Awake()
     {
+        data.animalNumber = 0;
+        gameObject.SetActive(true);
+        openDoor.SetActive(false);
         openDoor.GetComponent<Collider2D>().enabled = false;
         canvas.SetActive(false);
     }
@@ -17,9 +20,8 @@ public class Hunting : MonoBehaviour
     {
         if (data.animalNumber == 10)
         {
-            Debug.Log("ok");
-
             openDoor.GetComponent<Collider2D>().enabled = true;
+            openDoor.SetActive(true);
             gameObject.SetActive(false);
             canvas.SetActive(true);
         }

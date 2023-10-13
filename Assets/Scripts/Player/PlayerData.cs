@@ -5,6 +5,5 @@ using UnityEngine;
 
 public class PlayerData : ScriptableObject
 {
-    public int animalNumber;
-    public List<GameObject> Animals = new List<GameObject>();
+    public int animalNumber = 0;
 }

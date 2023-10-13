@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c6fde3ca67eec4580735470a0617c9, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  animalNumber: 2
+  animalNumber: 0
   Animals:
   - {fileID: 8528822196708461150, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
   - {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
