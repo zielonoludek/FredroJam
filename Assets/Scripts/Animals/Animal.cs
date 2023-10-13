@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Animal : MonoBehaviour
 {
@@ -45,9 +47,10 @@ public class Animal : MonoBehaviour
         }
         childNum = parent.transform.childCount;
     }
-
-    private void Update()
+    public void Move(Vector3 target)
     {
         animator.SetFloat("Speed", speed);
+        if (transform.position == target) Invoke("RandomiseTarget", 0.5f);
+        else transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
 }

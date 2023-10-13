@@ -9,7 +9,6 @@ public class BulletSpawner : MonoBehaviour
 
     private void Awake()
     {
-        Instantiate(bullet);
         playerActions = new ActionsEditor();
         playerActions.Gun.Enable();
 
