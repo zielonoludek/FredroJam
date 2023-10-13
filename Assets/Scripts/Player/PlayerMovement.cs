@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] GameSettings settings;
     private ActionsEditor playerActions;
     private Rigidbody2D rb;
     private bool jumped = false;
@@ -18,17 +19,22 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         playerActions.Player.Jump.performed += Jump;
-        transform.position = Vector3.zero;
+        transform.position = new Vector3(transform.position.x,0.7f,0);
+        settings = GameState.instance.gameSettings;
+
     }
     private void FixedUpdate()
     {
-        Vector2 playerInput = playerActions.Player.Movement.ReadValue<Vector2>();
-        transform.Translate(playerInput * speed * Time.deltaTime);
-        animator.SetFloat("Speed", speed);
+        if (settings.isLevelRunning && !settings.isGamePaused)
+        {
+            Vector2 playerInput = playerActions.Player.Movement.ReadValue<Vector2>();
+            transform.Translate(playerInput * speed * Time.deltaTime);
+            animator.SetFloat("Speed", speed);
+        }
     }
     private void Jump(InputAction.CallbackContext contex) 
     {
-        if (!jumped) 
+        if (!jumped && (settings.isLevelRunning && !settings.isGamePaused)) 
         {
             jumped = true;
             rb.AddForce(Vector2.up * speed * jumpModifier, ForceMode2D.Impulse);

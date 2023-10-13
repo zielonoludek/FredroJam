@@ -11,6 +11,8 @@ TagManager:
   - BirdTargets
   - FoxTargets
   - WaterDrop
+  - Teleporter
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - UI
   - ScreenBounds
   - HiddenInGame
-  - 
+  - Furnitures
   - 
   - 
   - 

@@ -8,7 +8,6 @@ public class Bird : Animal
 
     private void Start()
     {
-        Debug.Log("start");
         renderArea = GameObject.FindGameObjectWithTag("RenderArea");
         targetList = GameObject.FindGameObjectWithTag("BirdTargets");
         GetChildren(targetList);

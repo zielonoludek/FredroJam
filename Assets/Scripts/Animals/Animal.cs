@@ -8,8 +8,9 @@ public class Animal : MonoBehaviour
 {
      private float hp;
      public float speed;
-     
-     [HideInInspector] public GameObject renderArea;
+
+    [SerializeField] GameSettings settings;
+    [HideInInspector] public GameObject renderArea;
      [HideInInspector] public float roomLength;
      [HideInInspector] public float roomHeight;
 
@@ -18,16 +19,15 @@ public class Animal : MonoBehaviour
      [SerializeField] private Animator animator;
 
     private void Awake()
-    {
-        Physics2D.IgnoreLayerCollision(6, 3);
-        Physics2D.IgnoreLayerCollision(0, 3);
+    { 
         SetHP(Random.Range(1, 3));
         renderArea = GameObject.FindGameObjectWithTag("RenderArea");
         roomLength = renderArea.transform.localScale.x;
         roomHeight = renderArea.transform.localScale.y;
-        speed = Random.Range(1, 7);
+        speed = Random.Range(3, 10);
+        settings = GameState.instance.gameSettings;
+
     }
-    private void OnDestroy() => Debug.Log("Animal defeated");
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Bullet")) Hit();
@@ -40,7 +40,6 @@ public class Animal : MonoBehaviour
     }
     public void GetChildren(GameObject parent)
     {
-        Debug.Log("get children");
         foreach (Transform child in parent.GetComponentsInChildren<Transform>())
         {
             childList.Add(child.gameObject);
@@ -49,8 +48,15 @@ public class Animal : MonoBehaviour
     }
     public void Move(Vector3 target)
     {
-        animator.SetFloat("Speed", speed);
-        if (transform.position == target) Invoke("RandomiseTarget", 0.5f);
-        else transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (settings.isLevelRunning && !settings.isGamePaused)
+        {
+            animator.SetFloat("Speed", speed);
+            if (transform.position == target) Invoke("RandomiseTarget", 0.5f);
+            else transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        }
+    }
+    private void OnDestroy()
+    {
+        GameState.instance.playerData.animalNumber++;
     }
 }
