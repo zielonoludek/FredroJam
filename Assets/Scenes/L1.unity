@@ -216,6 +216,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird (4)
@@ -517,6 +521,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird (1)
@@ -968,6 +976,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird
@@ -1436,6 +1448,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird (3)
@@ -1923,6 +1939,10 @@ PrefabInstance:
     - target: {fileID: 264623010167416804, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742214983521443224, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8528822196708461150, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
       propertyPath: m_Name
@@ -2449,6 +2469,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6742214983521443224, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8528822196708461150, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
       propertyPath: m_Name
       value: Fox (3)
@@ -2957,6 +2981,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird (5)
@@ -3082,6 +3110,10 @@ PrefabInstance:
     - target: {fileID: 6683668581097699264, guid: b1793a8f75dad7241958c4c2d52972e7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6683668581097699264, guid: b1793a8f75dad7241958c4c2d52972e7, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3304,6 +3336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6742214983521443224, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8528822196708461150, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
       propertyPath: m_Name
       value: Fox (1)
@@ -3414,6 +3450,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396655167}
     m_Modifications:
+    - target: {fileID: 4186848567118735369, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5084984267821178715, guid: d8f06d32715560547b6900cc42d69da5, type: 3}
       propertyPath: m_Name
       value: Bird (2)
@@ -3675,6 +3715,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6742214983521443224, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8528822196708461150, guid: 1190903b63daef34bb1ad638c4df0bac, type: 3}
       propertyPath: m_Name
       value: Fox
@@ -3914,7 +3958,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1491338452014944425, guid: fdce5c4e1680ed04a9437b62f24b8143, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7764229972370171375, guid: fdce5c4e1680ed04a9437b62f24b8143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4064,7 +4108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3644474760867236601, guid: 53352037527848a49922922cd59c72b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 3644474760867236601, guid: 53352037527848a49922922cd59c72b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4100,7 +4144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3927247686666215137, guid: 53352037527848a49922922cd59c72b9, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 52439204157441601, guid: 53352037527848a49922922cd59c72b9, type: 3}
@@ -4174,7 +4218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7799967796198411275, guid: 243ab7fba55eb3f4ebed3efbf463d260, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8106225951090629424, guid: 243ab7fba55eb3f4ebed3efbf463d260, type: 3}
       propertyPath: m_Enabled
@@ -4254,6 +4298,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5971846037126426673, guid: 4e65796378db3be42a552f86224adb39, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188027567226472229, guid: 4e65796378db3be42a552f86224adb39, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
